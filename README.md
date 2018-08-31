@@ -1,5 +1,9 @@
-# Siri Multirotor Soundpack for OpenTX
-## Description
+# OpenTX Japanese Soundpack (Microsoft Ayumi)
+## 説明 Description
+
+このリポジトリは、OpenTXの日本語サウンドパックが含まれています。
+今回、日本語化にはMicrosoft合成音声 Ayumiによりテキスト読み上げを行いました。
+適用環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
 
 This repository contains an OpenTX soundpack which was generated using the
 Samantha (Siri) voice of Apple's text-to-speech engine.  It is compatible with

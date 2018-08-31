@@ -1,20 +1,27 @@
 # OpenTX Japanese Soundpack (Microsoft Ayumi)
-## 説明 Description
+## 説明 (Description)
 
 このリポジトリは、OpenTXの日本語サウンドパックが含まれています。
-今回、日本語化にはMicrosoft合成音声 Ayumiによりテキスト読み上げを行いました。
+今回、日本語化にはMicrosoft合成音声エンジンを用いたAyumiによりテキスト読み上げを行いました。
 適用環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
 
 This repository contains an OpenTX soundpack which was generated using the
-Samantha (Siri) voice of Apple's text-to-speech engine.  It is compatible with
-OpenTX 2.2 and was tested on the Taranis X9D and Q X7.
+Ayumi voice of Microsoft's text-to-speech engine.  It is compatible with
+OpenTX 2.2.2 and was tested on the FrSky Taranis X-Lite.
 
+このサウンドパックが提供するフレーズは、次の3つのカテゴリのいずれかに分類されます:
 The phrases provided by this soundpack fall into one of three categories:
- * OpenTX system messages
- * Multirotor related
- * Funny lines
 
-## Download & Install
+ * OpenTX システムメッセージ (OpenTX system messages)
+ * マルチローター関連用語 (Multirotor related)
+ * おもしろフレーズ (Funny lines)
+
+
+## ダウンロードとインストール (Download & Install)
+
+releaseページへ移動し、最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で
+使用している音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリとなります。
+ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
 
 Go to the releases page and download the latest ZIP archive. Delete the
 `SOUNDS/en/` directory on your OpenTX SD card. Extract the archive and copy

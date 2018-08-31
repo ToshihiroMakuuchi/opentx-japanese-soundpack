@@ -27,11 +27,21 @@ Go to the releases page and download the latest ZIP archive. Delete the
 `SOUNDS/en/` directory on your OpenTX SD card. Extract the archive and copy
 its contents to the `SOUNDS/` directory of the SD card.
 
+
 ## 技術的な詳細について (Technical Details)
 
 `index.csv`ファイルには、すべてのメッセージのデータベースを含みます。
 `tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げを使用してこのデータを
 処理するために使用されます。CSVファイルは、下記で説明する列が使用されます。
+
+ * `_idx` 対象メッセージが最初に抽出されたファイル名
+ * `_category` 対象メッセージに割り当てられた旧カテゴリ
+ * `category` 対象メッセージに割り当てられた新カテゴリ
+ * `directory` 対象メッセージを格納するファイルシステムのパス
+ * `_filename`  対象メッセージの旧ファイル名
+ * `filename` 対象メッセージの新ファイル名
+ * `_text` メッセージ内容
+
 
 The file `index.csv` contains the database of all messages. Python scripts in
 the `tools/` directory are used to process this data using text-to-speech. The
@@ -44,6 +54,7 @@ CSV file uses the following columns:
  * `_filename` original filename of this message
  * `filename` new filename of this message
  * `_text` spoken words of the message
+
 
 ## Credits
 

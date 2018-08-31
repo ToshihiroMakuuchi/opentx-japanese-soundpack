@@ -10,6 +10,7 @@ Ayumi voice of Microsoft's text-to-speech engine.  It is compatible with
 OpenTX 2.2.2 and was tested on the FrSky Taranis X-Lite.
 
 このサウンドパックが提供するフレーズは、次の3つのカテゴリのいずれかに分類されます:
+
 The phrases provided by this soundpack fall into one of three categories:
 
  * OpenTX システムメッセージ (OpenTX system messages)
@@ -56,9 +57,11 @@ CSV file uses the following columns:
  * `_text` spoken words of the message
 
 
-## Credits
+## クレジット (Credits)
 
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
 * Improved by: Philip Huppert (Phaeilo)
+* Japanese Transration by: まっく (t_mac116)
+
 

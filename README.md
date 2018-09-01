@@ -1,9 +1,16 @@
 # OpenTX Japanese Soundpack (Microsoft Ayumi)
+## はじめに (Introduction)
+
+まっく@Betaflight日本語化プロジェクトです。今回、日本語化プロジェクト第二弾として
+OpenTX周りの日本語化をゴニョゴニョしたいと思っていますが、まずは手始めとして音源を
+日本語化してみました。皆様に利用して頂き、色々と使い勝手を良くしていければと考えます。
+
+
 ## 説明 (Description)
 
 このリポジトリは、OpenTXの日本語サウンドパックを提供しています。
-今回、日本語化にはMicrosoft合成音声エンジンを用いたAyumiによりテキスト読み上げを行いました。
-適用環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
+今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。
+動作確認環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
 
 This repository contains an OpenTX soundpack which was generated using the
 Ayumi voice of Microsoft's text-to-speech engine.  It is compatible with
@@ -21,7 +28,7 @@ The phrases provided by this soundpack fall into one of three categories:
 ## ダウンロードとインストール (Download & Install)
 
 releaseページへ移動し、最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で
-使用している音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリとなります。
+使用している対象音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。
 ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
 
 Go to the releases page and download the latest ZIP archive. Delete the
@@ -31,9 +38,9 @@ its contents to the `SOUNDS/` directory of the SD card.
 
 ## 技術的な詳細について (Technical Details)
 
-`index.csv`ファイルには、すべてのメッセージのデータベースを含みます。
+`index.csv`ファイルは、音源に含まれるすべてのメッセージのデータベースとなります。
 `tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げを使用してこのデータを
-処理するために使用されます。CSVファイルは、下記で説明する列が使用されます。
+処理するために使用されます。CSVファイルは、下記の項目が使用されます。
 
  * `_idx` 対象メッセージが最初に抽出されたファイル名
  * `_category` 対象メッセージに割り当てられた旧カテゴリ

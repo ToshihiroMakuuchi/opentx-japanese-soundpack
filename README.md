@@ -6,6 +6,7 @@ OpenTX周りの日本語化をゴニョゴニョしたいと思っています�
 日本語化してみました。皆様に利用して頂き、色々と使い勝手を良くしていければと考えます。
 
 
+
 ## 説明 (Description)
 
 このリポジトリは、OpenTX 日本語サウンドパックを提供しています。
@@ -19,6 +20,7 @@ OpenTX周りの日本語化をゴニョゴニョしたいと思っています�
  * おもしろフレーズ (Funny lines)
 
 
+
 ## ダウンロードとインストール (Download & Install)
 
 release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases) ページへ移動し、
@@ -28,6 +30,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 
 現在OpenTXではJapaneseおよびJPの選択項目がないため、他言語で使われるディレクトリと置き換えて利用する
 必要がありますのでご了承お願い致します。
+
 
 
 ## これらの詳細について (Technical Details)
@@ -46,6 +49,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
  * `_text` メッセージフレーズ内容
 
 
+
 ## クレジット (Credits)
 
 今回、こちらのサウンドパックの提供はPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】
@@ -57,9 +61,11 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 * Japanese Transration by: まっく (t_mac116)
 
 
+
 ## Siri Multirotor Soundpack for OpenTX
 
 fork元であるサウンドパックはこちら
 
 https://github.com/Phaeilo/opentx-siri-multirotor
+
 

@@ -1,21 +1,17 @@
 # OpenTX Japanese Soundpack (Microsoft Ayumi)
 ## はじめに (Introduction)
 
-まっく@Betaflight日本語化プロジェクトです。日本語化プロジェクト第二弾として
-OpenTX周りの日本語化をゴニョゴニョしたいと思っていますが、まずは手始めとして音源を
-日本語化してみました。皆様に利用して頂き、色々と使い勝手を良くしていければと考えます。
+まっく@Betaflight日本語化プロジェクトです。日本語化プロジェクト第二弾としてOpenTX周りの日本語化をゴニョゴニョしたいと思っていますが、まずは手始めとして音源を日本語化してみました。皆様に利用して頂き、色々と使い勝手を良くしていければと考えます。
 
 
 
 ## 説明 (Description)
 
-このリポジトリは、OpenTX 日本語サウンドパックを提供しています。
-今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。
-動作確認環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
+このリポジトリは、OpenTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。動作確認環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
 
-このサウンドパックが提供するメッセージフレーズは、次の3つのカテゴリのいずれかに分類されます:
+このサウンドパックが提供するメッセージフレーズは、次の3つのカテゴリのいずれかに分類されます：
 
- * OpenTX システムメッセージ (OpenTX system messages)
+ * OpenTXシステムメッセージ (OpenTX system messages)
  * マルチローター関連用語 (Multirotor related)
  * おもしろフレーズ (Funny lines)
 
@@ -23,22 +19,16 @@ OpenTX周りの日本語化をゴニョゴニョしたいと思っています�
 
 ## ダウンロードとインストール (Download & Install)
 
-release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases) ページへ移動し、
-最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で使用している対象音源を
-削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。
-ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
+release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で使用している対象音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
 
-現在OpenTXではJapaneseおよびJPの選択項目がないため、他言語で使われるディレクトリと置き換えて利用する
-必要がありますのでご了承お願い致します。
+現在OpenTXではJapaneseおよびJPの選択項目がないため、他言語で使われるディレクトリと置き換えて利用する必要がありますのでご了承お願い致します。
 
 
 
 ## これらの詳細について (Technical Details)
 
 `index.csv`ファイルは、音源に含まれるすべてのメッセージフレーズのデータベースとなります。
-`tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げをを行いWAVデータを生成するために
-使用しますが、今回この音源は、スクリプトを使用せず別ツールを用いてWAVファイルを生成しています。
-またCSVファイルは、下記の項目に分かれています。
+`tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げをを行いWAVデータを生成するために使用しますが、今回この音源は、スクリプトを使用せず別ツールを用いてWAVファイルを生成しています。またCSVファイルは、下記の項目に分かれています。
 
  * `_idx` 対象メッセージが最初に抽出されたファイル名
  * `_category` 対象メッセージに割り当てられた旧カテゴリ
@@ -52,8 +42,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 
 ## クレジット (Credits)
 
-今回、こちらのサウンドパックの提供はPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】
-をforkしております。dale3h氏およびPhaeilo氏の、非常にすばらしい英語サウンドパックの提供に感謝致します。
+これらのサウンドパックはPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】をforkしております。dale3h氏およびPhaeilo氏の、非常にすばらしい英語版サウンドパックの提供に感謝致します。
 
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)

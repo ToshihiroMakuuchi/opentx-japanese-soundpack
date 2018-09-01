@@ -25,12 +25,16 @@ releaseページへ移動し、最新のZIPアーカイブファイルをダウ�
 使用している対象音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。
 ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
 
+現在OpenTXではJapaneseおよびJPの選択項目がないため、他言語で使われるディレクトリと置き換えて利用する
+必要がありますのでご了承お願い致します。
+
 
 ## 技術的な詳細について (Technical Details)
 
 `index.csv`ファイルは、音源に含まれるすべてのメッセージフレーズのデータベースとなります。
-`tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げを使用してこのデータを
-処理するために使用されます。CSVファイルは、下記の項目が使用されます。
+`tools /`ディレクトリにあるPythonスクリプトは、テキスト読み上げをを行いWAVデータを生成するために
+使用しますが、今回この音源は、スクリプトを使用せず別ツールを用いてWAVファイルを生成しています。
+またCSVファイルは、下記の項目に分かれています。
 
  * `_idx` 対象メッセージが最初に抽出されたファイル名
  * `_category` 対象メッセージに割り当てられた旧カテゴリ
@@ -38,15 +42,22 @@ releaseページへ移動し、最新のZIPアーカイブファイルをダウ�
  * `directory` 対象メッセージを格納するファイルシステムのパス
  * `_filename`  対象メッセージの旧ファイル名
  * `filename` 対象メッセージの新ファイル名
- * `_text` メッセージ内容
+ * `_text` メッセージフレーズ内容
 
 
 ## クレジット (Credits)
 
-今回、こちらのサウンドパックの提供はPhaeilo氏が提供するものをforkしています。
+今回、こちらのサウンドパックの提供はPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】
+をforkしております。dale3h氏およびPhaeilo氏の、非常にすばらしい英語サウンドパックに感謝致します。
 
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
 * Improved by: Philip Huppert (Phaeilo)
 * Japanese Transration by: まっく (t_mac116)
+
+
+## Siri Multirotor Soundpack for OpenTX (fork元)
+
+fork元はこちら
+https://github.com/Phaeilo/opentx-siri-multirotor
 

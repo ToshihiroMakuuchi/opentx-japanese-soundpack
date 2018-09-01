@@ -19,9 +19,9 @@
 
 ## ダウンロードとインストール (Download & Install)
 
-release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で使用している対象音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
+release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases) ページへ移動し、最新のZIPアーカイブファイルをダウンロード、および解凍してください。また、ご自身の送信機で使用している対象音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。ダウンロードおよび解凍したZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリへコピーを行います。
 
-現在OpenTXではJapaneseおよびJPの選択項目がないため、他言語で使われるディレクトリと置き換えて利用する必要がありますのでご了承お願い致します。
+現在OpenTXではJapaneseおよびJPの選択項目がないため、既に使われている【en】や他言語のディレクトリと置き換えて利用する必要がありますのでご了承ください。
 
 
 

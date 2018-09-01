@@ -47,7 +47,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
 * Improved by: Philip Huppert (Phaeilo)
-* Japanese Transration by: まっく (t_mac116)
+* Japanese Transration by: まっく (ToshihiroMakuuchi)
 
 
 

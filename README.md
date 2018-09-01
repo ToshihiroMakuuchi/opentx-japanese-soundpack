@@ -49,7 +49,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 ## クレジット (Credits)
 
 今回、こちらのサウンドパックの提供はPhaeilo氏が提供する【Siri Multirotor Soundpack for OpenTX】
-をforkしております。dale3h氏およびPhaeilo氏の、非常にすばらしい英語サウンドパックに感謝致します。
+をforkしております。dale3h氏およびPhaeilo氏の、非常にすばらしい英語サウンドパックの提供に感謝致します。
 
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
@@ -57,8 +57,8 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 * Japanese Transration by: まっく (t_mac116)
 
 
-## Siri Multirotor Soundpack for OpenTX (fork元)
+## Siri Multirotor Soundpack for OpenTX
 
-fork元はこちら
+fork元であるサウンドパックはこちら
 https://github.com/Phaeilo/opentx-siri-multirotor
 

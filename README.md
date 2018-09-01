@@ -53,7 +53,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 
 ## Siri Multirotor Soundpack for OpenTX
 
-fork元であるサウンドパックはこちら
+fork元である英語版サウンドパックはこちらです。
 
 https://github.com/Phaeilo/opentx-siri-multirotor
 

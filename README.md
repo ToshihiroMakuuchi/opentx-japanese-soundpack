@@ -21,8 +21,9 @@ OpenTX周りの日本語化をゴニョゴニョしたいと思っています�
 
 ## ダウンロードとインストール (Download & Install)
 
-releaseページへ移動し、最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で
-使用している対象音源を削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。
+release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases) ページへ移動し、
+最新のZIPアーカイブファイルをダウンロードしてください。そして、ご自身の送信機で使用している対象音源を
+削除してください。音源は、OpenTX SDカード内の `SOUNDS / en /`ディレクトリです。
 ダウンロードしたZIPアーカイブの内容をコピーし、SDカードの `SOUNDS /`ディレクトリにコピーしてください。
 
 現在OpenTXではJapaneseおよびJPの選択項目がないため、他言語で使われるディレクトリと置き換えて利用する

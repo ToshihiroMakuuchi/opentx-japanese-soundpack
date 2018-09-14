@@ -1,4 +1,4 @@
-# OpenTX Japanese Soundpack (Microsoft Ayumi)
+# OpenTX Japanese Soundpack
 ## はじめに (Introduction)
 
 まっく@Betaflight日本語化プロジェクトです。日本語化プロジェクト第二弾としてOpenTX周りの日本語化をゴニョゴニョしたいと思っていますが、まずは手始めとして音源を日本語化してみました。皆様に利用して頂き、色々と使い勝手を良くしていければと考えます。
@@ -7,7 +7,7 @@
 
 ## 説明 (Description)
 
-このリポジトリは、OpenTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。動作確認環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
+このリポジトリは、OpenTX 日本語サウンドパックを提供しています。今回、音源の日本語化にはMicrosoft合成音声エンジン(Ayumi)を用いてテキスト読み上げを行いました。また、その後このindex.csvを利用し、macOS(Kyoko)での音声変換もA2Cさんによりご協力頂きました。動作確認環境としてOpenTX 2.2.2をベースとし、FrSky Taranis X-Liteでテストを行っています。
 
 このサウンドパックが提供するメッセージフレーズは、次の3つのカテゴリのいずれかに分類されます：
 

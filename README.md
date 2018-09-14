@@ -48,6 +48,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
 * Improved by: Philip Huppert (Phaeilo)
 * Japanese Transration by: まっく (ToshihiroMakuuchi)
+* macOS(Kyoko) Voice conversion by: A2C (Wednesday Tokyo Whoopers memver)
 
 
 

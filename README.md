@@ -47,8 +47,10 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 * Inspiration: "Amber" sound pack by Arron Bates (theKM)
 * Original "taranis-siri-sound-pack" by: Dale Higgs (dale3h)
 * Improved by: Philip Huppert (Phaeilo)
+
 * Japanese Transration by: まっく (ToshihiroMakuuchi)
 * macOS(Kyoko) Voice conversion by: A2C (Wednesday Tokyo Whoopers memver)
+* Sarara-Sato & Takahashi Voice conversion by: 琴音春海 (Facebook:Jumper T16 User's Club Japan)
 
 
 

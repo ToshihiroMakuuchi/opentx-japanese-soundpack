@@ -50,7 +50,7 @@ release (https://github.com/ToshihiroMakuuchi/opentx-japanese-soundpack/releases
 
 * Japanese Transration by: まっく (ToshihiroMakuuchi)
 * macOS(Kyoko) Voice conversion by: A2C (Wednesday Tokyo Whoopers memver)
-* Sarara-Sato & Takahashi Voice conversion by: 琴音春海 (Facebook:Jumper T16 User's Club Japan)
+* Sarara-Sato, Takahashi & Tsuzumi-Suzuki Voice conversion by: 琴音春海 (Facebook:Jumper T16 User's Club Japan)
 
 
 
